@@ -128,7 +128,7 @@ align-items: center;
 
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
 width: 39px;
 height: 39px;
 flex-shrink: 0;

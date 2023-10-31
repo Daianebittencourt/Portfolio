@@ -24,6 +24,10 @@ const Sidebar: React.FC = () => {
      <FollowSuggestion 
      name= 'Thalyta Campos'
      nickname= '@thalyta'
+     />,
+     <FollowSuggestion 
+     name= 'Thalyta Campos'
+     nickname= '@thalyta'
      />
     ]}
      />

@@ -12,7 +12,7 @@ const Main: React.FC = () => {
 
           <ProfileInfo>
             <strong>Daiane Bittencourt</strong>
-          <span>612 Tweets</span>
+          <span>Junior Fullstack Developer</span>
           </ProfileInfo>
       </Header>
       <ProfilePage />

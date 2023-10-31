@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../Button';
 import { Container, Logo, MenuButton, HomeIcon, BellIcon, EmailIcon, FavoriteIcon, ProfileIcon, TopSider, ExitIcon, BotSide, Avatar, ProfileData } from './styles';
 import  laptop  from '../../assets/rocket-launch-bold.svg';
+import perfil from '../../assets/perfil.jpg'
 // import { Container } from './styles';
 
 const MenuBar: React.FC = () => {
@@ -36,15 +37,15 @@ const MenuBar: React.FC = () => {
         </MenuButton>
 
         <Button>
-          <span>Tweetar</span>
+          <span>Contact me</span>
         </Button>
 
       </TopSider>
       <BotSide>
-        <Avatar />
+        <Avatar src={perfil}/>
         <ProfileData>
           <strong>Daiane Bittencourt</strong>
-          <span>@daiane_bittencourt</span>
+          <span>Fullstack Developer</span>
         </ProfileData>
         <ExitIcon />
       </BotSide>

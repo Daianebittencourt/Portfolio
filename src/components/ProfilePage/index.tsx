@@ -12,10 +12,12 @@ const ProfilePage: React.FC = () => {
       <Avatar src={perfil} />
     </Banner>
     <ProfileData>
-      <EditButton outlined>Editar Perfil</EditButton>
+      <EditButton outlined>GitHub</EditButton>
     <h1>Daiane Bittencourt </h1>
-    <h2>@daianebittencourt</h2>
-    <p>Developer at <a href="https://www.linkedin.com/company/ubicua-cloud/">@UbicuaCloud</a>
+    <h2>Junior Fullstack Developer</h2>
+    <p>Fullstack Developer at <a href="https://www.linkedin.com/company/ubicua-cloud/">@UbicuaCloud</a> | Follow me on LinkedIn <a href="https://www.linkedin.com/in/daianebittencourtdasilva/">@DaianeBittencourt</a>
+    {/* </p>
+      <p> */}
     </p>
     <ul>
       <li>
@@ -24,7 +26,7 @@ const ProfilePage: React.FC = () => {
       </li>
       <li>
         <CakeIcon />
-        Nascida em 02 de outubro de 2000
+        Born October 2, 2000
       </li>
     </ul>
     <Folloowage>
